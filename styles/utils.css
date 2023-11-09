@@ -223,6 +223,7 @@
     border: 2px solid indigo;
     border-radius: 1rem;
     padding: 2rem;
+    box-shadow: 1px 1px 10px mediumslateblue;
 
 }
 
@@ -255,6 +256,9 @@
 @media (min-width:768px) {
     .container{
         max-width: 768px;
+    }
+    .plan_container{
+        width: 50%;
     }
     .header_title{
         font-size: 1.5rem;
@@ -296,6 +300,9 @@
     .banner_container{
         flex-wrap: nowrap;
 
+    }
+    .plan_container{
+        width: 100%;
     }
 
 }
