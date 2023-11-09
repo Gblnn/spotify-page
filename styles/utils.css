@@ -48,7 +48,7 @@
 .banner_text{
     color: white;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 1rem;
     user-select: none;
     /* border: 1px solid; */
