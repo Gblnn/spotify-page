@@ -48,7 +48,7 @@
 .banner_text{
     color: white;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 1rem;
     user-select: none;
     /* border: 1px solid; */
@@ -157,6 +157,7 @@
     font-size: 0.75rem;
     text-align: center;
     width: 45ch;
+    margin-bottom: 3rem;
     /* border: 1px solid; */
 
 }
