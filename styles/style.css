@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    line-height: 1.2;
+    color-scheme: dark;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    scrollbar-color: dark;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+    color: aliceblue;
+}
+

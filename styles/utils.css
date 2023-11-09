@@ -1,0 +1,243 @@
+.container{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    /* margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid white; */
+}
+
+.header_container{
+    display: flex;
+    background-color: black;
+    width:100%
+}
+
+.main_title{
+    margin: 1rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.header_icon{
+    padding-right: 0.5rem;
+}
+
+.header_title{
+    font-size: 1.5rem;
+    display: none;
+    user-select: none;
+}
+
+.banner_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+    background: linear-gradient( black, mediumslateblue);
+    /* border: 1px solid; */
+
+}
+
+.banner_text{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    user-select: none;
+    /* border: 1px solid; */
+}
+
+.banner_text_container{
+    padding-left: rem;
+    padding-right: 2rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+    font-weight: 500;
+    user-select: none;
+}
+.conditions{
+    font-size: 0.6rem;
+    color: #8a8a8a;
+    width:90%;
+    margin-top:0.5rem;
+    user-select: none;
+}
+.desc_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid ; */
+}
+.btn_white{
+    font-family: Poppins;
+    background-color: rgb(166, 154, 232);
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    padding-left: rem;
+    padding-right: rem;
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+.btn_white:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 20px rgb(166, 154, 232);
+}
+.btn_border{
+    font-family: Poppins;
+    border: 1px solid mediumslateblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    padding-left: rem;
+    padding-right: rem;
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+.btn_border:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 20px mediumslateblue;
+}
+
+.btn_container{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid; */
+}
+
+.pitch_container{
+    /* border: 1px solid; */
+    text-align: center;
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.pitch_text{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    user-select: none;
+    /* border: 1px solid; */
+}
+.description{
+    color: #8a8a8a;
+    font-size: 0.75rem;
+    text-align: center;
+    width: 45ch;
+    /* border: 1px solid; */
+
+}
+
+@media (min-width:475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+    .header_title{
+        font-size: 1.5rem;
+        display: block;
+    }
+    .main_title{
+        margin-left: 3rem;
+    }
+    .banner_container{
+        flex-wrap: wrap;
+        background: linear-gradient( mediumslateblue, black);
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_text{
+        font-size: 2.5rem;
+        margin: 6rem;
+        color: white;
+        font-weight:600;
+    }
+    .conditions{
+        width: 50%;
+        font-size: 0.75rem;
+        margin-top: 2rem;
+    }
+    .description{
+        width: 75ch;
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+
+    .container{
+        max-width: 1024px;
+    }
+    .banner_container{
+        flex-wrap: nowrap;
+
+    }
+
+}
+
+/* xl */
+@media (min-width:1280px) {
+    .container{
+        max-width: 1280px;
+    }
+    .btn{
+        font-size: 1.1rem;
+    }
+    .tstack_container{
+        min-width: 70ch;
+    }
+}
+
+/* 2xl */
+@media (min-width:1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
+
