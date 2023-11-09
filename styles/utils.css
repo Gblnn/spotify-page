@@ -92,7 +92,8 @@
 }
 .btn{
     font-family: Poppins;
-    background-color: rgb(165, 152, 239);
+    /* background-color: rgb(165, 152, 239); */
+    background-color: white;
     color: black;
     font-size: 1rem;
     font-weight: 500;
